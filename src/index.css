@@ -1,0 +1,110 @@
+:root {
+  /* --- Light Theme --- */
+  --bg-primary: #ffffff; /* Nền trang chính */
+  --bg-secondary: #fafafa; /* Nền phụ / section */
+  --bg-surface: #ffffff; /* Nền của Card, Modal */
+  --bg-hover: #f2f2f2; /* Nền hover nút phụ/menu */
+
+  --border-subtle: #eaeaea; /* Viền nhẹ card/input */
+  --border-hover: #999999; /* Viền khi hover */
+
+  --text-primary: #000000; /* Chữ tiêu đề, nội dung chính */
+  --text-secondary: #666666; /* Chữ mô tả, ngày tháng, subtitle */
+  --text-muted: #888888; /* Chữ phụ, placeholder */
+
+  /* Accent & Action (Màu thương hiệu Vercel) */
+  --accent: #0070f3; /* Vercel Blue (nút chính, link nổi bật) */
+  --accent-hover: #0051bb; /* Hover của màu accent */
+  --accent-light: #e6f1fe; /* Nền badge/tag công nghệ */
+
+  /* Status Colors */
+  --color-success: #0070f3;
+  --color-error: #ee0000;
+  --color-warning: #f5a623;
+
+  /* Focus outline theo chuẩn A11y */
+  --focus-ring: rgba(0, 112, 243, 0.4);
+}
+
+/* --- Dark Theme --- */
+[data-theme="dark"],
+.dark {
+  --bg-primary: #000000; /* Nền đen sâu chuẩn Vercel */
+  --bg-secondary: #0a0a0a; /* Nền section tối */
+  --bg-surface: #111111; /* Nền thẻ Card / Container */
+  --bg-hover: #1f1f1f; /* Nền hover nút */
+
+  --border-subtle: #333333; /* Viền card tinh tế trong nền tối */
+  --border-hover: #666666; /* Viền sáng hơn khi hover */
+
+  --text-primary: #ffffff; /* Chữ trắng tinh */
+  --text-secondary: #a1a1a1; /* Chữ mô tả xám nhạt */
+  --text-muted: #666666; /* Chữ mờ / disabled */
+
+  --accent: #0070f3; /* Vercel Blue */
+  --accent-hover: #3291ff; /* Sáng hơn khi ở Dark mode */
+  --accent-light: rgba(0, 112, 243, 0.15); /* Nền badge phát sáng nhẹ */
+
+  --focus-ring: rgba(0, 112, 243, 0.6);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+/* A11y: Outline rõ ràng khi điều hướng bằng phím Tab */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ==========================================
+   Global Utility Classes
+   ========================================== */
+
+/* Placeholder section dùng trên từng trang */
+.page-hero {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 5rem 1.5rem 4rem;
+}
+
+.page-hero h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -1.5px;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.page-hero p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  max-width: 520px;
+}
+
+/* Màu nhấn dùng chung */
+.accent {
+  color: var(--accent);
+}

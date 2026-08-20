@@ -1,0 +1,104 @@
+{
+  "personalInfo": {
+    "name": "DO NHAT DUY",
+    "title": "Frontend JavaScript Developer Intern",
+    "shortIntro": "Đam mê xây dựng các ứng dụng web với React, Next.js và kiến trúc hệ thống cơ sở dữ liệu.",
+    "avatarUrl": "/avatar.jpg",
+    "dob": "07",
+    "mob": "09",
+    "yob": "2004",
+    "gender": "Male",
+    "address": "Tan Hoa, Di An, Binh Duong",
+    "email": "dnduy792004@gmail.com",
+    "phone": "0837079950",
+    "objective": "Khát khao trở thành Frontend JavaScript Developer Intern với kinh nghiệm thực tế trong việc xây dựng các ứng dụng web từ đầu đến cuối bằng React, Next.js. Có kinh nghiệm thiết kế RESTful APIs và kiến trúc hệ thống cơ sở dữ liệu kết hợp SQL/NoSQL (PostgreSQL, MongoDB). Hiểu biết vững chắc về quản lý state, chiến lược caching và triển khai với Docker. Mong muốn đóng góp vào các hệ thống có khả năng mở rộng và hướng tới môi trường production."
+  },
+  "education": [
+    {
+      "id": 1,
+      "school": "University of Science",
+      "major": "Information Technology",
+      "gpa": "3.1/4.0",
+      "time": "2022 - 2026"
+    }
+  ],
+  "skills": {
+    "technical": [
+      {
+        "category": "Frontend",
+        "items": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "ReactJS",
+          "TailwindCSS",
+          "MUI",
+          "Next.js (Basic)"
+        ]
+      },
+      {
+        "category": "Frameworks & Libraries",
+        "items": ["Redux Toolkit", "RTK Query"]
+      },
+      {
+        "category": "Backend & DB",
+        "items": [
+          "Node.js",
+          "Express.js",
+          "PostgreSQL (Sequelize)",
+          "MongoDB (Mongoose)",
+          "Redis"
+        ]
+      },
+      {
+        "category": "DevOps & Tools",
+        "items": ["Docker", "Docker Compose", "Jira"]
+      },
+      {
+        "category": "Cloud & Hosting",
+        "items": ["Vercel (Frontend)", "Virtual Machine Azure (Backend)"]
+      },
+      {
+        "category": "Other Technical Skills",
+        "items": ["OOP", "Responsive Web Design", "RESTful API Integration"]
+      }
+    ],
+    "softSkills": ["Problem Solving", "Self-learning", "Time Management"],
+    "languages": ["English - TOEIC: 805"]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "name": "Shopee Clone Full-stack Project",
+      "thumbnail": "/projects/shopee-thumbnail.png",
+      "shortDesc": "A fully responsive e-commerce web application that allows users to browse products, manage shopping carts, and process payments.",
+      "tags": [
+        "ReactJS",
+        "Tailwind CSS",
+        "Redux Toolkit",
+        "Node.js",
+        "PostgreSQL",
+        "MongoDB",
+        "Docker"
+      ],
+      "githubUrl": "https://github.com/22120074/shopee-clone.git",
+      "demoUrl": "https://duyshop.fatagram.dev",
+      "time": "AUGUST 2025 - April 29, 2026"
+    },
+    {
+      "id": 2,
+      "name": "NENS Eng-Web | Frontend Developer",
+      "thumbnail": "/projects/nens-thumbnail.png",
+      "shortDesc": "An interactive English learning web platform featuring role-based routing and optimized systems for both Students and Teachers.",
+      "tags": ["Next.js 15", "React 19", "Material UI", "Google Cloud Storage"],
+      "githubUrl": "https://github.com/DATN-EngWeb/EngWeb-FE",
+      "demoUrl": "",
+      "time": "February 2026 - Present"
+    }
+  ],
+  "contactLinks": {
+    "email": "dnduy792004@gmail.com",
+    "phone": "0837079950",
+    "github": "https://github.com/your-github"
+  }
+}

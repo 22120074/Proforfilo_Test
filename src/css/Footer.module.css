@@ -1,0 +1,31 @@
+.footer {
+  border-top: 1px solid var(--border-subtle);
+  background-color: var(--bg-secondary);
+  padding: 1.5rem;
+  margin-top: auto;
+}
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.copy {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.note {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.accent {
+  color: var(--accent);
+  font-weight: 600;
+}
