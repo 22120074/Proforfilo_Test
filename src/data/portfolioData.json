@@ -8,10 +8,10 @@
     "mob": "09",
     "yob": "2004",
     "gender": "Male",
-    "address": "Tan Hoa, Di An, Binh Duong",
+    "address": "Tân Hòa, Dĩ An, Bình Dương",
     "email": "dnduy792004@gmail.com",
     "phone": "0837079950",
-    "objective": "Khát khao trở thành Frontend JavaScript Developer Intern với kinh nghiệm thực tế trong việc xây dựng các ứng dụng web từ đầu đến cuối bằng React, Next.js. Có kinh nghiệm thiết kế RESTful APIs và kiến trúc hệ thống cơ sở dữ liệu kết hợp SQL/NoSQL (PostgreSQL, MongoDB). Hiểu biết vững chắc về quản lý state, chiến lược caching và triển khai với Docker. Mong muốn đóng góp vào các hệ thống có khả năng mở rộng và hướng tới môi trường production."
+    "objective": "Khát khao trở thành Frontend JavaScript Developer trong 2 năm tiếp theo với kinh nghiệm thực tế trong việc xây dựng các ứng dụng web bằng React, Next.js. Hiểu biết vững chắc về quản lý state, chiến lược caching và triển khai với Docker. Mong muốn đóng góp vào các hệ thống có khả năng mở rộng và hướng tới môi trường production."
   },
   "education": [
     {
@@ -27,75 +27,61 @@
       {
         "category": "Frontend",
         "items": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "ReactJS",
-          "TailwindCSS",
-          "MUI",
-          "Next.js (Basic)"
+          { "name": "HTML5 / CSS3", "level": "Intermediate" },
+          { "name": "JavaScript (ES6+)", "level": "Intermediate" },
+          { "name": "ReactJS", "level": "Intermediate" },
+          { "name": "TailwindCSS", "level": "Intermediate" },
+          { "name": "MUI", "level": "Intermediate" },
+          { "name": "Next.js", "level": "Basic" },
+          { "name": "TypeScript", "level": "Basic" }
         ]
       },
       {
-        "category": "Frameworks & Libraries",
-        "items": ["Redux Toolkit", "RTK Query"]
+        "category": "Frameworks & State Management",
+        "items": [
+          { "name": "Redux Toolkit", "level": "Intermediate" },
+          { "name": "RTK Query", "level": "Intermediate" }
+        ]
       },
       {
-        "category": "Backend & DB",
+        "category": "Backend & Database",
         "items": [
-          "Node.js",
-          "Express.js",
-          "PostgreSQL (Sequelize)",
-          "MongoDB (Mongoose)",
-          "Redis"
+          { "name": "Node.js & Express.js", "level": "Intermediate" },
+          { "name": "PostgreSQL (Sequelize)", "level": "Intermediate" },
+          { "name": "MongoDB (Mongoose)", "level": "Basic" },
+          { "name": "Redis", "level": "Basic" }
         ]
       },
       {
         "category": "DevOps & Tools",
-        "items": ["Docker", "Docker Compose", "Jira"]
+        "items": [
+          { "name": "Git / GitHub", "level": "Intermediate" },
+          { "name": "Docker & Docker Compose", "level": "Basic" },
+          { "name": "Jira", "level": "Intermediate" }
+        ]
       },
       {
-        "category": "Cloud & Hosting",
-        "items": ["Vercel (Frontend)", "Virtual Machine Azure (Backend)"]
+        "category": "Cloud & Deployment",
+        "items": [
+          { "name": "Vercel", "level": "Intermediate" },
+          { "name": "Azure Virtual Machine", "level": "Basic" }
+        ]
       },
       {
-        "category": "Other Technical Skills",
-        "items": ["OOP", "Responsive Web Design", "RESTful API Integration"]
+        "category": "Architecture & Concepts",
+        "items": [
+          { "name": "Responsive Web Design", "level": "Intermediate" },
+          { "name": "RESTful API Integration", "level": "Intermediate" },
+          { "name": "OOP Principles", "level": "Intermediate" }
+        ]
       }
     ],
     "softSkills": ["Problem Solving", "Self-learning", "Time Management"],
-    "languages": ["English - TOEIC: 805"]
+    "languages": [
+      "English - TOEIC: 805 (Fluent Reading)",
+      "English - TOEIC SW: 240"
+    ]
   },
-  "projects": [
-    {
-      "id": 1,
-      "name": "Shopee Clone Full-stack Project",
-      "thumbnail": "/projects/shopee-thumbnail.png",
-      "shortDesc": "A fully responsive e-commerce web application that allows users to browse products, manage shopping carts, and process payments.",
-      "tags": [
-        "ReactJS",
-        "Tailwind CSS",
-        "Redux Toolkit",
-        "Node.js",
-        "PostgreSQL",
-        "MongoDB",
-        "Docker"
-      ],
-      "githubUrl": "https://github.com/22120074/shopee-clone.git",
-      "demoUrl": "https://duyshop.fatagram.dev",
-      "time": "AUGUST 2025 - April 29, 2026"
-    },
-    {
-      "id": 2,
-      "name": "NENS Eng-Web | Frontend Developer",
-      "thumbnail": "/projects/nens-thumbnail.png",
-      "shortDesc": "An interactive English learning web platform featuring role-based routing and optimized systems for both Students and Teachers.",
-      "tags": ["Next.js 15", "React 19", "Material UI", "Google Cloud Storage"],
-      "githubUrl": "https://github.com/DATN-EngWeb/EngWeb-FE",
-      "demoUrl": "",
-      "time": "February 2026 - Present"
-    }
-  ],
   "contactLinks": {
     "email": "dnduy792004@gmail.com",
     "phone": "0837079950",

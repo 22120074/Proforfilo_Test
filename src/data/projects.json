@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "name": "Shopee Clone Full-stack Project",
+    "thumbnail": "/projects/shopee-thumbnail.png",
+    "shortDesc": "A fully responsive e-commerce web application that allows users to browse products, manage shopping carts, and process payments.",
+    "tags": [
+      "ReactJS",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Node.js",
+      "PostgreSQL",
+      "MongoDB",
+      "Docker",
+      "Cloudinary",
+      "Redis",
+      "Azure VM"
+    ],
+    "githubUrl": "https://github.com/22120074/shopee-clone.git",
+    "demoUrl": "https://duyshop.fatagram.dev",
+    "time": "AUGUST 2025 - April 29, 2026"
+  },
+  {
+    "id": 2,
+    "name": "NENS Eng-Web | Frontend Developer",
+    "thumbnail": "/projects/nens-thumbnail.png",
+    "shortDesc": "An interactive English learning web platform featuring role-based routing and optimized systems for both Students and Teachers.",
+    "tags": ["Next.js 15", "React 19", "Material UI", "Google Cloud Storage"],
+    "githubUrl": "https://github.com/DATN-EngWeb/EngWeb-FE",
+    "demoUrl": "",
+    "time": "February 2026 - Present"
+  }
+]
