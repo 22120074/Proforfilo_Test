@@ -47,6 +47,7 @@
         "category": "Backend & Database",
         "items": [
           { "name": "Node.js & Express.js", "level": "Intermediate" },
+          { "name": ".NET", "level": "Intermediate" },
           { "name": "PostgreSQL (Sequelize)", "level": "Intermediate" },
           { "name": "MongoDB (Mongoose)", "level": "Basic" },
           { "name": "Redis", "level": "Basic" }

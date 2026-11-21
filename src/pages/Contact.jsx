@@ -107,9 +107,9 @@ const Contact = () => {
         </div>
 
         {/* ── Form liên hệ ── */}
-        <div className={styles.formCol}>
+        {/* <div className={styles.formCol}>
           <form onSubmit={handleSubmit} className={styles.form} noValidate>
-            {/* Tên & Email trên cùng 1 dòng ở Desktop */}
+            Tên & Email trên cùng 1 dòng ở Desktop
             <div className={styles.formRow}>
               <div className={styles.formGroup}>
                 <label htmlFor="name">Họ và tên</label>
@@ -203,7 +203,7 @@ const Contact = () => {
               )}
             </button>
           </form>
-        </div>
+        </div> */}
       </div>
     </section>
   );

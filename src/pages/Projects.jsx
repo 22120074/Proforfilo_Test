@@ -117,14 +117,23 @@ const Projects = () => {
           {filteredProjects.map((project) => (
             <div key={project.id} className={styles.card}>
               <div className={styles.thumbnailWrapper}>
-                <img
-                  src={project.thumbnail}
-                  alt={`Thumbnail của ${project.name}`}
-                  className={styles.thumbnail}
-                  loading="lazy"
-                />
+                {project.thumbnail ? (
+                  <img
+                    src={project.thumbnail}
+                    alt={`Thumbnail của ${project.name}`}
+                    className={styles.thumbnail}
+                    loading="lazy"
+                  />
+                ) : (
+                  <div
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      backgroundColor: "#ffffff",
+                    }}
+                  ></div>
+                )}
               </div>
-
               <div className={styles.cardBody}>
                 <h3 className={styles.projectName}>{project.name}</h3>
                 <p className={styles.projectTime}>
